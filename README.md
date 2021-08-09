@@ -1,8 +1,8 @@
-# JD2A
+# JD2A
 
 When injected via Tapermonkey, the jd2a.js script allows for the creation of Anki cards directly from JapanDict.
 
-## Instructions
+## Instructions
 
 - You need to make sure you have AnkiDirect installed.
 - In Anki, navigate to Tools > Addons > AnkiConnect > Config.
