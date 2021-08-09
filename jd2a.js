@@ -97,6 +97,9 @@
     window.fields['Expression'] = window.elementHeadword.text();
 
     var elementReading = $("div.d-flex.flex-column.align-middle.p-2");
+    if (elementReading.length > 1) {
+        elementReading = elementReading.eq(0);
+    };
     // Unfortunately JapanDict's HTML structure is very much not optimized for
     // scraping (on purpose?), which means we need to hard-code a few possible cases.
     var stringReading;
